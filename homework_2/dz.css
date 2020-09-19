@@ -1,0 +1,42 @@
+body {
+    margin: 0px;
+    display: grid;
+    grid:
+        "h h h" 48px 
+        "m m m" auto
+        "f f f" 155px ;
+    min-height: 100vh;
+}
+header {
+    width: 1440px;
+    grid-area: h;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: url(top.png);
+}
+#logo{
+    margin-left: 190px;
+}
+
+#bur{
+    margin-right: 190px;
+}
+
+main{
+    width: 1440px;
+    grid-area: m;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+
+
+
+footer{
+    width: 1440px;
+    grid-area: f;
+    background: url(vector.jpg);
+}
+
