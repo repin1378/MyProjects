@@ -1,0 +1,71 @@
+body {
+    
+    display: grid;
+    grid: "m" auto;
+    min-height: 100vh;
+}
+
+main{
+    width: 300px;
+    height: 350px;
+    grid-area: m;
+    display: grid;
+    grid:
+        "n"
+        "m"
+        "p"
+        "b";
+    margin: 35%;
+    border: 3px solid black;
+    padding: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#name{
+    grid-area: n;
+    display: flex;
+  justify-content: center;
+}
+
+#mail{
+    grid-area: m;
+    height: 30px;
+    margin-block-end: 20px;
+    border: none;
+    border-bottom: 4px solid rgb(11, 128, 0);
+}
+
+#pass{
+    grid-area: p;
+    height: 30px;
+    margin-block-end: 20px;
+    border: none;
+    border-bottom: 4px solid grey;
+}
+
+.but{
+    grid-area: b;
+    margin-block-end: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#log{
+    height: 30px;
+    width: 70px;
+    border-bottom: 4px solid black;
+}
+
+#reg{
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-bottom: 4px solid grey;
+}
+
+
+
+
+

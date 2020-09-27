@@ -8,12 +8,13 @@ body {
     min-height: 100vh;
 }
 header {
-    width: 1440px;
+    width: auto;
     grid-area: h;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: url(top.png);
+    color: white;
 }
 #logo{
     margin-left: 190px;
@@ -24,19 +25,46 @@ header {
 }
 
 main{
-    width: 1440px;
+    width: 800px; 
     grid-area: m;
-    display: flex;
-    flex-flow: column;
-    justify-content: space-between;
+    display: grid;
+    grid:
+         "n n"
+         "i f"
+         "c f";
+    margin: 80px;  
+}
+
+.name{
+    grid-area: n;
+}
+
+.info{
+    grid-area: i;
+    background: url(Rectangle_7.png);
+    background-repeat: no-repeat;
+}
+
+#conquer{
+    grid-area: c;
+    background-color: black;
+    height: 30px;
+    width: 100px;
+    color:white;
+
+}
+
+#figure{
+    grid-area: f; 
 }
 
 
-
-
 footer{
-    width: 1440px;
+    width: auto;
     grid-area: f;
     background: url(vector.jpg);
+    padding-left: 100px;
+    padding-top: 80px;
+    
 }
 
