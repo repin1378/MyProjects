@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+    display: grid;
+    grid:
+        "h" 48px 
+        "m" auto;
+        
+    min-height: 100vh;
+}
+
+header {
+    width: auto;
+    grid-area: h;
+    background-color: #464646;
+    display: flex;
+  align-items: center;
+}
+
+#logo{
+    width: 180px;
+    height: 29px;
+    margin-left: 190px;
+    color: white; 
+}
+
+main{
+    width: 540px;
+    height: 420px;
+    grid-area: m;
+    display: grid;
+    grid:
+         "i s" 161px
+         "b b";
+    margin: auto;
+    margin-top: 140px;
+
+
+
+}
+
+#img{
+
+    grid-area: i;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+#status{
+
+    grid-area: s;
+    margin-bottom: auto;
+    
+
+}
+
+.but{
+    grid-area: b;
+}
+
+
+#new{
+    margin-top: 50px;
+}
+
+#load{
+    margin-top: 30px;
+
+}
+
+#set{
+    margin-top: 30px;
+}
+
+.but>input{
+    height: 48px;
+    width: 416px;
+    border: 1px solid;
+    background-color: transparent;
+    outline: none;
+}
+
+.stars {
+    color: gold;
+}
+
+
