@@ -1,0 +1,23 @@
+{
+  "name": "myprojects",
+  "version": "1.0.0",
+  "description": "TEST",
+  "main": "index.js",
+  "dependencies": {
+    "pug": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/repin1378/MyProjects.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/repin1378/MyProjects/issues"
+  },
+  "homepage": "https://github.com/repin1378/MyProjects#readme"
+}
