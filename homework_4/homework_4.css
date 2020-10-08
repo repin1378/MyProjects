@@ -24,15 +24,16 @@ header {
 }
 
 main{
-    width: 540px;
+    width: 416px;
     height: 420px;
     grid-area: m;
     display: grid;
     grid:
          "i s" 161px
-         "b b";
+         "b b" / max-content 1fr;
     margin: auto;
     margin-top: 140px;
+    grid-gap: 32px;
 
 
 
@@ -42,8 +43,6 @@ main{
 
     grid-area: i;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 
 }
 
@@ -60,9 +59,6 @@ main{
 }
 
 
-#new{
-    margin-top: 50px;
-}
 
 #load{
     margin-top: 30px;
@@ -83,6 +79,16 @@ main{
 
 .stars {
     color: gold;
+    margin: 32px;
+    margin-left: 0px;
+}
+
+p{
+    margin-top: 0px;
+}
+
+#name{
+    margin-top: 0px;
 }
 
 
